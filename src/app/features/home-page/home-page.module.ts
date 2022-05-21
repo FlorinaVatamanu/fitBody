@@ -3,6 +3,7 @@ import { HomePageComponent } from './home-page.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HomePageRoutingModule } from './home-page-routing.module';
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { HomePageRoutingModule } from './home-page-routing.module';
   imports: [
     CommonModule,
     FormsModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    ButtonModule
   ]
 })
 
